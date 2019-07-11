@@ -320,3 +320,70 @@ padding: 20px 0;
     border: 0.5px solid black;
     width: 60px;
 }
+
+.seaImg {
+    height: 480px;
+    left: 50%;
+    margin-left: -360px;
+    position: relative;
+    width: 720px;
+}
+
+.seaimgDescription {
+    color: #666666;
+    font-size: 15px;
+    letter-spacing: normal;
+    line-height: 20px;
+    left: 50%;
+    margin-left: -360px;
+    text-align: left;
+    position: relative;
+    width: 720px;
+}
+
+.locationDescription {
+    color: #888888;
+    font-size: 13px;
+    letter-spacing: 0.13px;
+    line-height: 18px;
+    left: 50%;
+    margin-left: -360px;
+    text-align: left;
+    position: relative;
+    width: 720px;
+}
+
+.articleFooterText {
+    color: #999999;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.commentsBtn {
+    background-color: #6288a5;
+    border-radius: 3px;    
+    color: white;
+    float: left;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    height: 36px;
+    letter-spacing: 0.65px;
+    line-height: 24px;
+    padding: 5px 0;
+    text-align: center;
+    width: 330px;
+}
+
+.socialIcons {
+    background-color: #eeeeee;
+    border-radius: 100%;
+    height: 15px;
+    float: right;
+    margin: 0 5px;
+    padding: 5px;
+    width: 15px;
+}
