@@ -5,11 +5,13 @@
 }
 
 .nav {
+    background-color: #ffffff;
     border-bottom: 1px solid lightgrey;
     height: 39px;
     position: fixed;
     top: 0;
     width: 100vw;
+    z-index: 2;
 }
 
 .nav p {
@@ -111,4 +113,44 @@
     line-height: 18px;
     text-align: left;
     
+}
+
+.name-author {
+    color: #121212;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+}
+
+.article-info {
+    left: 50%;
+    margin-left: -300px;
+    margin-top: 35px;
+    position: relative;
+    width: 600px;
+}
+
+.name-author a {
+    color: #333333;
+}
+
+.container-info {
+
+}
+
+.container-info p {
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    float: left;
+    letter-spacing: 0.28px;
+    line-height: 18px;
+}
+
+.container-info img {
+    height: 15px;
+    float: right;
+    width: 15px;
 }
