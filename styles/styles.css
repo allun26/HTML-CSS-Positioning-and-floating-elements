@@ -183,8 +183,54 @@ padding: 20px 0;
 .articleTitle {
     color: #333333;
     font-size: 20px;
+    left: 50%;
     line-height: 30px;
+    margin-left: -475px;
     margin-top: 35px;
     margin-bottom:15px;
+    position: relative;
     text-align: start;
+}
+
+.captionImage {
+    color: #666666;
+    font-size: 14px;
+    left: 50%;
+    line-height: 18px;
+    margin-left: -475px;
+    position: relative;
+    text-align: start;
+    width: 950px;
+}
+
+.articleImage {
+    height: 565px;
+    left: 50%;
+    margin-left: -475px;
+    position: relative;
+    width: 950px;
+}
+
+.articleImage img {
+    height: 565px;
+    width: 950px;
+}
+
+.articleImage p {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.textImg1 {
+    position: absolute;
+    top: 150px;
+    width: 225px;
+}
+
+.textImg2 {
+    position: absolute;
+    left: 237px;
+    top: 150px;
+    width: 225px;
 }
