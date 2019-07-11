@@ -412,14 +412,13 @@ padding: 20px 0;
     margin-left: -600px;
     margin-top: 150px;
     position: relative;
-    min-width: 1200px;
+    width: 1200px;
 
 }
 
 .moreInSpace {
     float: left;
-    max-width: 900px;
-    min-width: 850px;
+    width: 850px;
 }
 
 .moreInSpace img {
