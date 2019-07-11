@@ -412,13 +412,18 @@ padding: 20px 0;
     margin-left: -600px;
     margin-top: 150px;
     position: relative;
-    width: 1200px;
+    min-width: 1200px;
 
 }
 
 .moreInSpace {
     float: left;
-    width: 850px;
+    max-width: 900px;
+    min-width: 850px;
+}
+
+.moreInSpace img {
+    float: left;
 }
 
 .moreInSpace a {
@@ -453,6 +458,16 @@ padding: 20px 0;
 }
 
 .mostPopular {
+    background-color: red;
     float: right;
     width: 330px;
+}
+
+.mostPopular p {
+    color: black;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: start;
 }
