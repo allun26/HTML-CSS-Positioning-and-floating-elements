@@ -570,43 +570,48 @@ padding: 20px 0;
     text-decoration: none;
 }
 
-.linksContainer {
-
-}
 
 .listLinks {
-    float: left;
+    display: block;
     width: 980px;  
 }
 
 .subscribeLinks {
-    float: right;
+    border-left: 0.5px solid lightgray;
+    padding-left: 30px;
+    position: absolute;
+    top: 57px;
+    right: 0;
     width: 205px;
+
+
 }
 
 .list {
-    display: block;
-    width: 100px;
+    float: left;
+    display: grid;
+    list-style: none;
+    padding-right: 94px;
 }
 
-.list h3 {
+.list li h3 {
     color: #333333;
     font-size: 13px;
     font-style: bold;
     letter-spacing: normal;
     line-height: 15px;
-    text-align: start;
 } 
 
 .list li {
-
+    margin: 5px 0;
 }
 
 .list li a {
     color: #000000;
-    display: block;
     font-size: 14px;
     letter-spacing: normal;
     line-height: 16px;
-    text-align: start;
+    float: left;
+    padding: 0;
+    margin: 0;
 }
