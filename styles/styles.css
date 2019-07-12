@@ -31,7 +31,7 @@
 .nav p {
     font-size: 14.25px;
     left: 7%;
-    letter-spacing: 0.7;
+    letter-spacing: 0.7px;
     line-height: 19px;
     position: absolute;
     top: 20%;
@@ -607,7 +607,7 @@ padding: 20px 0;
 .list li h3 {
     color: #333333;
     font-size: 13px;
-    font-style: bold;
+    font-weight: bold;
     letter-spacing: normal;
     line-height: 15px;
 } 
@@ -635,7 +635,7 @@ padding: 20px 0;
 .subscribeLinks h3 {
     color: #333333;
     font-size: 13px;
-    font-style: bold;
+    font-weight: bold;
     letter-spacing: normal;
     line-height: 15px;
 } 
